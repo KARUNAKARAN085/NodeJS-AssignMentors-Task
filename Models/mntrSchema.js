@@ -7,5 +7,5 @@ const mntrSchema = mongoose.Schema({
     batch: String
 })
 
-const Mentor = mongoose.model("Mentor",mntrSchema);
+const Mentor = mongoose.model("Mentor",mntrSchema, 'Mentor');
 export default Mentor
